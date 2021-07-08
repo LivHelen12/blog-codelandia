@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+}
+
+h1 {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 24px;
+  color: var(--white);
+  font-weight: normal;
+}
+
+h2 {
+  color: var(--title);
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  background: var(--linear);
+  width: 100%;
+  height: 250px;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header-search input {
+  border: none;
+  height: 55px;
+  width: 55%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 0 50px;
+  opacity: 0.3;
+  color: var(--white);
+}
+
+.header-search input::placeholder {
+  color: var(--title);
+}
+
+.header-search i {
+  color: var(--white);
+  position: absolute;
+  top: 32%; 
+  right: 0;
+  left: 23.8%;
+  /* padding: 0 5px; */
+}
+
+.card {
+  width: 80%;
+  background: var(--white);
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+}
+
+.card-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.card-date i {
+  color: var(--blue-dark);
+}
+
+.card-date p {
+  color: var(--text);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.card-content p {
+  color: var(--text);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: normal;
+}
+
+.card-content h2 {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
