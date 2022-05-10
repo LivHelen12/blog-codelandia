@@ -8,22 +8,18 @@
 
 ## Step 1
 
-```
 Clone the repository.
+```
 https://github.com/LivHelen12/Lumiere.git
 ```
 
 ## Step 2
 
-```
 This step is optional, if you are using VS Code, I recommend installing the Live Server extension.
-```
 
 ## Step 3
 
-```
 Open the index.html in your browser.
-```
 
 <br/>
 
