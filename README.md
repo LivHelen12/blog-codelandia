@@ -10,7 +10,7 @@
 
 Clone the repository.
 ```
-https://github.com/LivHelen12/Lumiere.git
+https://github.com/LivHelen12/blog-codelandia.git
 ```
 
 ## Step 2
